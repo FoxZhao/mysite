@@ -28,7 +28,7 @@
 		{% comment %} <li><a href="{% url 'account:user_logout' %}">Logout</a></li> {% endcomment %}
 		{% else %}
 		<li><a href="{% url 'account:user_login' %}">LOGIN</a></li>
-                <li><a href="{% url 'account:user_register' %}">Sign up</a></li>
+                {% comment %} <li><a href="{% url 'account:user_register' %}">Sign up</a></li> {% endcomment %}
 		{% endif %}
 	    </ul>
 	</div>
